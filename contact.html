@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Mathias IT Solutions</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand"><img src="assets/img/logo.jpg" alt="Mathias Logo"> Mathias IT Solutions</div>
+      <nav aria-label="Main menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="btn" href="mailto:mihaelateodora.mateim@gmail.com">Email us</a>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="eyebrow">Let's talk</div>
+        <h1>Tell us what you need. We'll keep it simple.</h1>
+        <p class="lead">For recruitment, outsourcing or engineering work, drop us a line. We answer fast.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container grid-2">
+        <div class="card">
+          <form action="mailto:mihaelateodora.mateim@gmail.com" method="post" enctype="text/plain">
+            <label>Name<br><input required name="Name" type="text" placeholder="Your name" style="width:100%;padding:12px;border-radius:10px;border:1px solid var(--line);background:#0b1220;color:var(--text)"></label><br><br>
+            <label>Email<br><input required name="Email" type="email" placeholder="you@company.com" style="width:100%;padding:12px;border-radius:10px;border:1px solid var(--line);background:#0b1220;color:var(--text)"></label><br><br>
+            <label>Message<br><textarea required name="Message" rows="5" placeholder="Tell us about your role or project" style="width:100%;padding:12px;border-radius:10px;border:1px solid var(--line);background:#0b1220;color:var(--text)"></textarea></label><br><br>
+            <button class="btn" type="submit">Send</button>
+          </form>
+        </div>
+        <div class="card" style="display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:center">
+          <img src="assets/img/mihaela.jpg" alt="Matei Mihaela" style="width:64px;height:64px;border-radius:999px;object-fit:cover;opacity:.95">
+          <div>
+            <strong>Matei Mihaela</strong><br>
+            <span class="list">IT Recruitment Specialist</span><br>
+            <a class="list" href="https://www.linkedin.com/company/101656471/" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px">
+      <div>© <span id="year"></span> Mathias IT Solutions. All rights reserved.</div>
+      <div style="color:#7383a4">Established 2022 • Built for performance</div>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+
+</body>
+</html>
