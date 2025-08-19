@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects — Mathias IT Solutions</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container nav">
+      <div class="brand"><img src="assets/img/logo.jpg" alt="Mathias Logo"> Mathias IT Solutions</div>
+      <nav aria-label="Main menu">
+        <ul>
+          <li><a href="index.html" >Home</a></li>
+          <li><a href="about.html" >About</a></li>
+          <li><a href="projects.html" aria-current="page">Projects</a></li>
+          <li><a href="careers.html" >Careers</a></li>
+          <li><a href="contact.html" >Contact</a></li>
+        </ul>
+      </nav>
+      <a class="btn" href="contact.html">Get in touch</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="eyebrow">Selected work</div>
+        <h1>Practical engineering, delivered with care.</h1>
+        <p class="lead">Below is a summary of projects we’ve built or operated. Each one balances reliability, security and everyday usability.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container grid-2">
+        <article class="card">
+          <h2>Smart Home Automation</h2>
+          <p>We designed and delivered end-to-end automation systems that join household devices into a cohesive whole. Lighting adapts to presence and daylight; heating and cooling react to real-time demand; scenes can be triggered by voice or schedule. The control layer is simple on purpose—one dashboard, clear states, quick overrides.</p>
+          <ul class="list">
+            <li>Voice integrations: Alexa & Google Home</li>
+            <li>Presence-aware lighting with manual fallback</li>
+            <li>Energy-aware HVAC control</li>
+            <li>Secure messaging between devices</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h2>Video Surveillance & Home Security</h2>
+          <p>For private homes and small businesses we implemented HD IP surveillance with discreet placement and encrypted storage. Owners monitor their property from anywhere, receive meaningful alerts—not noise—and can link cameras with smart locks and alarms for full-chain protection.</p>
+          <ul class="list">
+            <li>Night-vision IP cameras and motion zones</li>
+            <li>Encrypted NVR with safe remote access</li>
+            <li>Mobile notifications tied to real events</li>
+            <li>Integration with access control</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <div class="container grid-2">
+        <article class="card">
+          <h2>Home Datacenter</h2>
+          <p>For advanced home users we engineered compact, quiet racks that provide enterprise-grade storage and compute at domestic scale. Centralized data, automated backups, VM hosting and media services—all secured, monitored and energy-efficient.</p>
+          <ul class="list">
+            <li>ZFS storage with snapshotting and off-site sync</li>
+            <li>VM and container platforms for apps and labs</li>
+            <li>Hybrid cloud integrations for burst and backup</li>
+            <li>UPS and thermal management for continuity</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h2>IoT Communication Platforms</h2>
+          <p>We built lightweight messaging layers so devices can talk reliably without drowning the network. From garden irrigation to temperature and motion sensors, the system surfaces what matters and stays invisible the rest of the time.</p>
+          <ul class="list">
+            <li>MQTT-based messaging with ACLs</li>
+            <li>Edge processing for low latency</li>
+            <li>Dashboards with meaningful alerts</li>
+            <li>Security baked in from day one</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <div class="container cta">
+        <strong>Want a system that just works?</strong>
+        <a class="btn" href="contact.html">Start a conversation</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px">
+      <div>© <span id="year"></span> Mathias IT Solutions. All rights reserved.</div>
+      <div style="color:#9b95c4">Established 2022 • Built for performance</div>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+
+</body>
+</html>
