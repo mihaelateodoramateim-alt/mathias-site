@@ -1,26 +1,65 @@
-<!doctype html><html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>About — Mathias IT Solutions</title>
-<link rel="stylesheet" href="assets/css/style.css"></head><body>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About — Mathias IT Solutions</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
 
-<header>
-  <div class="container nav">
-    <div><strong>Mathias IT Solutions</strong></div>
-    <nav><ul>
-      <li><a href="index.html" >Home</a></li>
-      <li><a href="about.html" aria-current="page">About</a></li>
-      <li><a href="projects.html" >Projects</a></li>
-      <li><a href="careers.html" >Careers</a></li>
-      <li><a href="contact.html" >Contact</a></li>
-    </ul></nav>
-    <a class="btn" href="mailto:contact@mathiasitsolutions.com">Email us</a>
-  </div>
-</header>
+  <header>
+    <div class="container nav">
+      <div class="brand"><img src="assets/img/logo.jpg" alt="Mathias Logo"> Mathias IT Solutions</div>
+      <nav aria-label="Main menu">
+        <ul>
+          <li><a href="index.html" >Home</a></li>
+          <li><a href="about.html" aria-current="page">About</a></li>
+          <li><a href="projects.html" >Projects</a></li>
+          <li><a href="careers.html" >Careers</a></li>
+          <li><a href="contact.html" >Contact</a></li>
+        </ul>
+      </nav>
+      <a class="btn" href="contact.html">Get in touch</a>
+    </div>
+  </header>
 
-<main><section class="hero"><div class="container"><div class="eyebrow">Who we are</div>
-<h1>Engineering mindset. People first.</h1>
-<p class="lead">We blend the discipline of engineering with a practical approach to people and products.</p></div></section></main>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="eyebrow">Who we are</div>
+        <h1>Engineering mindset. People first.</h1>
+        <p class="lead">Founded in 2022 in Romania, Mathias IT Solutions blends the discipline of engineering with a practical approach to people and products.</p>
+      </div>
+    </section>
+    <section>
+      <div class="container grid-2">
+        <article class="card">
+          <h2>Our Founder</h2>
+          <p>Our founder is an engineer in <b>Electronics, Information Technology and Automation</b>. From an early age he dismantled and rebuilt devices, wrote code for fun, and tested ideas in real-life projects. He competed in numerous competitions and became a <b>national mathematics olympiad</b> laureate. That drive for excellence became the company’s north star.</p>
+          <p>As the company grew, we kept a simple promise: do the simple things exceptionally well—then scale. We prefer clarity over buzzwords, and results over slides. We’ve learned that steady progress beats sporadic sprints.</p>
+        </article>
+        <article class="card">
+          <h2>What we stand for</h2>
+          <blockquote>Excellence is a habit, not a goal.</blockquote>
+          <ul class="list">
+            <li>Excellence over shortcuts</li>
+            <li>Security by design</li>
+            <li>Clear ownership and measurable outcomes</li>
+            <li>Long-term partnerships and honest feedback</li>
+          </ul>
+          <p>We are small enough to care and experienced enough to deliver. That balance is our advantage.</p>
+        </article>
+      </div>
+    </section>
+  </main>
 
-<footer><div class="container">© <span id="y"></span> Mathias IT Solutions • Established 2022</div>
-<script>document.getElementById('y').textContent=new Date().getFullYear()</script></footer>
-</body></html>
+  <footer>
+    <div class="container" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px">
+      <div>© <span id="year"></span> Mathias IT Solutions. All rights reserved.</div>
+      <div style="color:#9b95c4">Established 2022 • Built for performance</div>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+
+</body>
+</html>
